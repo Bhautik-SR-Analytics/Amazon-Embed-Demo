@@ -23,7 +23,7 @@ export default function PowerBiReport({ emdedData }) {
   const [pages, setPages] = useState([]);
   const { data } = emdedData;
   const { reports, token, tokenExpiry, tokenId } = data;
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [starterLoaded, setStartedLoaded] = useState(false);
 
   //get starter reports from all reports and load that first
@@ -158,7 +158,6 @@ export default function PowerBiReport({ emdedData }) {
             )}
 
             {(starterLoaded || !starterReport) &&
-              otherReports.length &&
               otherReports.map((report, index) => {
                 const config = {
                   type: "report",
