@@ -7,7 +7,7 @@ const PowerBiReport = dynamicComponent(() => import("@/components/powerbireport"
 });
 
 export const metadata = {
-  title: "Reports - Ecomm Embed",
+  title: "Reports - Vantage Fly",
   robots: {
     index: false,
     follow: false,

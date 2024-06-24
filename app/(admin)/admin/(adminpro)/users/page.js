@@ -16,7 +16,7 @@ import UserTableSkeleton from "@/components/skeleton/usertableskeleton";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 export const metadata = {
-  title: "Users - Ecomm Embed",
+  title: "Users - Vantage Fly",
   robots: {
     index: false,
     follow: false,

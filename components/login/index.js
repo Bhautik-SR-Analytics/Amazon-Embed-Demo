@@ -93,7 +93,7 @@ export default function Login({ callbackUrl }) {
           <div className="hidden bg-muted lg:block">
             <Image
               src="/images/img-login.png"
-              alt="Ecomm Embed"
+              alt="Vantage Fly"
               width="845"
               height="633"
               className="h-full w-full object-contain p-12"
@@ -105,9 +105,9 @@ export default function Login({ callbackUrl }) {
               {/*eslint-disable-next-line*/}
               <img
                 src="/images/logo.svg"
-                width="260"
+                width="380"
                 height="56"
-                alt="Ecomm Embed"
+                alt="Vantage Fly"
                 className="h-14 mb-8"
               />
               <div className="mx-auto w-full max-w-96 space-y-8">

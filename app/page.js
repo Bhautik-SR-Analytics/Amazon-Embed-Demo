@@ -1,7 +1,7 @@
 import Login from "@/components/login";
 
 export const metadata = {
-  title: "Login - Ecomm Embed",
+  title: "Login - Vantage Fly",
   robots: {
     index: false,
     follow: false,

@@ -6,7 +6,7 @@ import Provider from "@/app/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ecomm Embed",
+  title: "Vantage Fly",
 };
 
 export default function RootLayout({ children }) {

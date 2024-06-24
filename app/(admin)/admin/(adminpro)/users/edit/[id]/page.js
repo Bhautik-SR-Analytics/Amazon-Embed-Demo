@@ -6,7 +6,7 @@ import { getClientLists } from "@/serveractions/clients";
 import { getReportsOptions } from "@/serveractions/clients";
 
 export const metadata = {
-  title: "Edit User - Ecomm Embed",
+  title: "Edit User - Vantage Fly",
   robots: {
     index: false,
     follow: false,

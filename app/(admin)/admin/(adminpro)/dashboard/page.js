@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Dashboard - Ecomm Embed",
+  title: "Dashboard - Vantage Fly",
   robots: {
     index: false,
     follow: false,

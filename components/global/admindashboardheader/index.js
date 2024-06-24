@@ -19,7 +19,7 @@ export default function AdminDashboardHeader() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/logo.svg"
-          alt="Ecomm-Embed"
+          alt="Vantage-Fly"
           className="h-10 block lg:hidden"
         />
       </Link>
@@ -46,7 +46,7 @@ export default function AdminDashboardHeader() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/logo.svg"
-                alt="Ecomm-Embed"
+                alt="Vantage-Fly"
                 className="h-9 block lg:hidden"
               />
             </div>

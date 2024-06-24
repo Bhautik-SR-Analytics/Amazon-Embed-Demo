@@ -4,7 +4,7 @@ import UserInformationForm from "@/components/adduserform";
 import { getClientLists } from "@/serveractions/clients";
 
 export const metadata = {
-  title: "Add User - Ecomm Embed",
+  title: "Add User - Vantage Fly",
   robots: {
     index: false,
     follow: false,

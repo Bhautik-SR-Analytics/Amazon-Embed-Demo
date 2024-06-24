@@ -82,9 +82,9 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <Link href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/logo.svg" alt="Ecomm-Embed" className="h-10 hidden sm:block" />
+              <img src="/images/logo.svg" alt="Vantage-Fly" className="h-10 hidden sm:block" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/icon.svg" alt="Ecomm-Embed" className="h-10 block sm:hidden" />
+              <img src="/images/icon.svg" alt="Vantage-Fly" className="h-10 block sm:hidden" />
             </Link>
             <Button onClick={() => setGlobalState({ type: "REPORT_SIDEBAR_TOGGLE" })} variant="outline" size="icon" className="shrink-0 lg:hidden">
               <Menu className="h-5 w-5" />

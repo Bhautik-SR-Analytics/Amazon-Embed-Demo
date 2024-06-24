@@ -22,7 +22,7 @@ export default function Sidebar({ user_role }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/logo.svg"
-                alt="Ecomm-Embed"
+                alt="Vantage-Fly"
                 className="h-9 hidden sm:block"
               />
             </Link>
