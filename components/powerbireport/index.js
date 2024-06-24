@@ -147,7 +147,7 @@ export default function PowerBiReport({ emdedData }) {
       <div className="flex-1 pt-4">
         {isLoading && <CustomLoader />}
         <div className="flex flex-col h-full">
-          {activePageReport && <ReportDashboard activePage={activePage} activePageReport={activePageReport} pages={pages} onClickHanlder={onClickHanlder} />}
+          {/* {activePageReport && <ReportDashboard activePage={activePage} activePageReport={activePageReport} pages={pages} onClickHanlder={onClickHanlder} />} */}
           <div className="flex-1">
             {starterReport && (
               <PowerBIEmbed

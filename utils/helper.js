@@ -7,12 +7,6 @@ export function filterMenuItems(pages) {
       pageTitle: "Reports",
       icon: "reports",
       children: [],
-    },
-    {
-      pageKey: "AI",
-      pageTitle: "AI Insights",
-      icon: "ai",
-      children: [],
     }
   ];
 
@@ -20,17 +14,6 @@ export function filterMenuItems(pages) {
     pages.forEach(function (page) {
       const pageName = page.displayName;
       switch (pageName) {
-        case "Ask AI":
-        case "AI Insights - Approval %":
-        case "AI Insights - Sales":
-          filterItems.find((item) => item.pageKey === "AI").children.push(page);
-          break;
-        case "Approval % - Subscriptions":
-          // page.displayName = "Approval %";
-          filterItems.find((item) => item.pageKey === "reports").children.push(page);
-        case "Approval % - Straight Sales":
-          // filterItems.find((item) => item.pageKey === "approval").children.push(page);
-          break;
         case "Home":
           const homePageMenu = {
             pageKey: "home",
